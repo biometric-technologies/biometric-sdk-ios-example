@@ -1,0 +1,28 @@
+PODS:
+  - BiometricSdk (0.2):
+    - TensorFlowLiteObjC (= 2.11.0)
+  - TensorFlowLiteC (2.11.0):
+    - TensorFlowLiteC/Core (= 2.11.0)
+  - TensorFlowLiteC/Core (2.11.0)
+  - TensorFlowLiteObjC (2.11.0):
+    - TensorFlowLiteObjC/Core (= 2.11.0)
+  - TensorFlowLiteObjC/Core (2.11.0):
+    - TensorFlowLiteC (= 2.11.0)
+
+DEPENDENCIES:
+  - BiometricSdk (= 0.2)
+
+SPEC REPOS:
+  trunk:
+    - BiometricSdk
+    - TensorFlowLiteC
+    - TensorFlowLiteObjC
+
+SPEC CHECKSUMS:
+  BiometricSdk: 66ab7733588e7ae4e14d14dfa633ac91694d9835
+  TensorFlowLiteC: 8a8cb6fa20ad74dff29b5e490d02c36a14d48148
+  TensorFlowLiteObjC: 01e40bff9009046b9dc20c213dd6c6781360f181
+
+PODFILE CHECKSUM: b5ae17323b7f3f48b1b8e9102390ceea2893f544
+
+COCOAPODS: 1.11.2

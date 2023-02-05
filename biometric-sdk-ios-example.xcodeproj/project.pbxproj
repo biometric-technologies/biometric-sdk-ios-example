@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2C4D673AA454486B0F65EB7 /* Pods_biometric_sdk_ios_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40C5D2C714E84C67EDC8F89 /* Pods_biometric_sdk_ios_example.framework */; };
 		F97D3A96298FD8150032D211 /* biometric_sdk_ios_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D3A95298FD8150032D211 /* biometric_sdk_ios_exampleApp.swift */; };
 		F97D3A98298FD8150032D211 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D3A97298FD8150032D211 /* ContentView.swift */; };
 		F97D3A9A298FD8180032D211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97D3A99298FD8180032D211 /* Assets.xcassets */; };
 		F97D3A9D298FD8180032D211 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97D3A9C298FD8180032D211 /* Preview Assets.xcassets */; };
+		F9BDF989298FDA5A001306B3 /* facenet-default.tflite in Resources */ = {isa = PBXBuildFile; fileRef = F9BDF988298FDA5A001306B3 /* facenet-default.tflite */; };
+		F9BDF98D298FDC71001306B3 /* howard in Resources */ = {isa = PBXBuildFile; fileRef = F9BDF98C298FDC71001306B3 /* howard */; };
+		F9BDF98F298FDC83001306B3 /* sheldon in Resources */ = {isa = PBXBuildFile; fileRef = F9BDF98E298FDC83001306B3 /* sheldon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81A2B74908014DDE1ED3BD08 /* Pods-biometric-sdk-ios-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-biometric-sdk-ios-example.release.xcconfig"; path = "Target Support Files/Pods-biometric-sdk-ios-example/Pods-biometric-sdk-ios-example.release.xcconfig"; sourceTree = "<group>"; };
+		A40C5D2C714E84C67EDC8F89 /* Pods_biometric_sdk_ios_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_biometric_sdk_ios_example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07429EB8D1E28A94A34FBE8 /* Pods-biometric-sdk-ios-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-biometric-sdk-ios-example.debug.xcconfig"; path = "Target Support Files/Pods-biometric-sdk-ios-example/Pods-biometric-sdk-ios-example.debug.xcconfig"; sourceTree = "<group>"; };
 		F97D3A92298FD8150032D211 /* biometric-sdk-ios-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "biometric-sdk-ios-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97D3A95298FD8150032D211 /* biometric_sdk_ios_exampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = biometric_sdk_ios_exampleApp.swift; sourceTree = "<group>"; };
 		F97D3A97298FD8150032D211 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F97D3A99298FD8180032D211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F97D3A9C298FD8180032D211 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F9BDF988298FDA5A001306B3 /* facenet-default.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "facenet-default.tflite"; sourceTree = "<group>"; };
+		F9BDF98C298FDC71001306B3 /* howard */ = {isa = PBXFileReference; lastKnownFileType = folder; path = howard; sourceTree = "<group>"; };
+		F9BDF98E298FDC83001306B3 /* sheldon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sheldon; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +36,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C4D673AA454486B0F65EB7 /* Pods_biometric_sdk_ios_example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A1EBD185ED07F73FD3F90E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A40C5D2C714E84C67EDC8F89 /* Pods_biometric_sdk_ios_example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF9522AFF8AE87C2DD57DEC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D07429EB8D1E28A94A34FBE8 /* Pods-biometric-sdk-ios-example.debug.xcconfig */,
+				81A2B74908014DDE1ED3BD08 /* Pods-biometric-sdk-ios-example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F97D3A89298FD8150032D211 = {
 			isa = PBXGroup;
 			children = (
 				F97D3A94298FD8150032D211 /* biometric-sdk-ios-example */,
 				F97D3A93298FD8150032D211 /* Products */,
+				EF9522AFF8AE87C2DD57DEC9 /* Pods */,
+				0A1EBD185ED07F73FD3F90E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +81,11 @@
 		F97D3A94298FD8150032D211 /* biometric-sdk-ios-example */ = {
 			isa = PBXGroup;
 			children = (
+				F9BDF988298FDA5A001306B3 /* facenet-default.tflite */,
+				F9BDF98C298FDC71001306B3 /* howard */,
 				F97D3A95298FD8150032D211 /* biometric_sdk_ios_exampleApp.swift */,
 				F97D3A97298FD8150032D211 /* ContentView.swift */,
+				F9BDF98E298FDC83001306B3 /* sheldon */,
 				F97D3A99298FD8180032D211 /* Assets.xcassets */,
 				F97D3A9B298FD8180032D211 /* Preview Content */,
 			);
@@ -74,6 +107,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F97D3AA0298FD8180032D211 /* Build configuration list for PBXNativeTarget "biometric-sdk-ios-example" */;
 			buildPhases = (
+				D96556B68ED52DC2813F10D5 /* [CP] Check Pods Manifest.lock */,
 				F97D3A8E298FD8150032D211 /* Sources */,
 				F97D3A8F298FD8150032D211 /* Frameworks */,
 				F97D3A90298FD8150032D211 /* Resources */,
@@ -125,12 +159,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9BDF98F298FDC83001306B3 /* sheldon in Resources */,
 				F97D3A9D298FD8180032D211 /* Preview Assets.xcassets in Resources */,
 				F97D3A9A298FD8180032D211 /* Assets.xcassets in Resources */,
+				F9BDF989298FDA5A001306B3 /* facenet-default.tflite in Resources */,
+				F9BDF98D298FDC71001306B3 /* howard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D96556B68ED52DC2813F10D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-biometric-sdk-ios-example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F97D3A8E298FD8150032D211 /* Sources */ = {
@@ -261,6 +323,7 @@
 		};
 		F97D3AA1298FD8180032D211 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D07429EB8D1E28A94A34FBE8 /* Pods-biometric-sdk-ios-example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -275,6 +338,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,6 +354,7 @@
 		};
 		F97D3AA2298FD8180032D211 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A2B74908014DDE1ED3BD08 /* Pods-biometric-sdk-ios-example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,6 +369,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
