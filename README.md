@@ -26,7 +26,7 @@ open biometric-sdk-ios-example.xcworkspace
 
 Open the `.xcworkspace`, not the `.xcodeproj`, otherwise the pods are not found. Select a simulator or device and press Run. Wait for the "Db initialized" alert, then tap "Load Random" and "Detect".
 
-The Podfile pins `BiometricSdk` 0.2, which pulls in TensorFlow Lite 2.11.0; `Podfile.lock` was produced with CocoaPods 1.11.2. Newer SDK releases (0.6.0 at the time of writing) change the initialization call; see [docs.iriscan.net/sdk](https://docs.iriscan.net/sdk) for the current API.
+The Podfile pins `BiometricSdk` 0.2, which pulls in TensorFlow Lite 2.11.0; `Podfile.lock` was produced with CocoaPods 1.11.2. Newer SDK releases (0.6.0 at the time of writing) change the initialization call; see [docs.iriscan.com/sdk](https://docs.iriscan.com/sdk) for the current API.
 
 ## Related repositories
 
@@ -34,7 +34,7 @@ The Podfile pins `BiometricSdk` 0.2, which pulls in TensorFlow Lite 2.11.0; `Pod
 - [biometric-sdk-cocoapods-release](https://github.com/biometric-technologies/biometric-sdk-cocoapods-release): the `BiometricSdk` pod and XCFramework.
 - [biometric-sdk-android-example](https://github.com/biometric-technologies/biometric-sdk-android-example): the same demo in Kotlin.
 - [biometric-sdk-react-native](https://github.com/biometric-technologies/biometric-sdk-react-native): React Native wrapper with face comparison and liveness.
-- [docs](https://github.com/biometric-technologies/docs): source of the developer documentation at docs.iriscan.net.
+- [docs](https://github.com/biometric-technologies/docs): source of the developer documentation at docs.iriscan.com.
 
 ## License
 
