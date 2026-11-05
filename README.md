@@ -42,4 +42,4 @@ License: not yet specified. The Biometric SDK this example depends on is license
 
 ## Contact
 
-info@iriscan.net, https://www.iriscan.com
+info@iriscan.com, https://www.iriscan.com
